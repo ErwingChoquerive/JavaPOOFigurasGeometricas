@@ -25,12 +25,15 @@ public class POOFigurasGeometricas {
         System.out.println("| Programa: Figuras Geometricas                    |");
         System.out.println("| - Ejemplo de Encapsulamiento                     |");
         System.out.println("+==================================================+");
-        System.out.println("| Que desea realizar?                              |");
-        System.out.println("| 1) Calcular el area y perimetro de un Circulo    |");
-        System.out.println("| 2) Calcular el area y perimetro de un Cuadrado   |");
-        System.out.println("| 3) Calcular el area y perimetro de un Rectangulo |");
-        System.out.println("| *) Salir                                         |");
-        System.out.println("+==================================================+");
+        System.out.println("| Que desea realizar?                                        |");
+        System.out.println("| 1) Calcular el area y perimetro de un Circulo              |");
+        System.out.println("| 2) Calcular el area y perimetro de un Cuadrado             |");
+        System.out.println("| 3) Calcular el area y perimetro de un Rectangulo           |");
+        System.out.println("| 4) Calcular el area y perimetro de un Triangulo_Rectangulo |");
+        System.out.println("| 5) Calcular el area y perimetro de un Rombo                |");
+        System.out.println("| 6) Calcular el area y perimetro de un Hexágono             |");
+        System.out.println("| *) Salir                                                   |");
+        System.out.println("+============================================================+");
         entradaTeclado = new Scanner(System.in);
         opcion = entradaTeclado.nextInt();
         switch (opcion) {
