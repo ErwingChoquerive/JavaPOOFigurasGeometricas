@@ -27,6 +27,32 @@ public class Triangulo_Rectangulo {
     public double getBase() {
         return Base;
     }
+
+    public void setBase(double base) {
+        this.Base = base;
+    }
+
+    public double getAltura() {
+        return Altura;
+    }
+
+    public void setAltura(double altura) {
+        this.Altura = altura;
+    }
     
+    public double getArea()
+    {
+        return (this.Base*this.Altura)/2;  //(base*altura)/2
+    }
     
+    public double getPerimetro()
+    {
+        double a=Math.sqrt((this.Base*this.Base)+(this.Altura*this.Altura));
+        return (a+this.Base+this.Altura);
+    }
+    
+    public double getHipotenusa()
+    {
+        return Math.sqrt((this.Base*this.Base)+(this.Altura*this.Altura));
+    }
 }
